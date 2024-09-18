@@ -128,7 +128,7 @@ header .container{
 }
 @media (max-width: 991px) {
     header .container{
-        padding-inline: 15px;
+        padding: 10px;
     }
 }
 header .container img{
