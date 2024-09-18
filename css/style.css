@@ -225,27 +225,20 @@ nav .left a{
     padding: 12px 20px;
     border-radius: 5px;
     font-size: 15px;
+    background-color: var(--main-color);
+    color: white;
+    transition: var(--main-transition);
+}
+nav .left a:hover{
+    background-color: #7081f310;
+    color: var(--main-color);
+
 }
 @media (max-width: 600px) {
     nav .left a{
     font-size: 13px;
     padding: 10px 15px;
     }
-}
-nav .left .login{
-    color: var(--main-color);
-    transition: var(--main-transition);
-}
-nav .left .login:hover{
-    background-color: #7081f326;
-}
-nav .left .new{
-    background-color: var(--main-color);
-    color: white;
-    transition: var(--main-transition);
-}
-nav .left .new:hover{
-    background-color: var(--main-color-hov);
 }
 nav i.bars-icon {
     display: none;
