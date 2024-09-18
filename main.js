@@ -41,3 +41,14 @@ document.addEventListener('DOMContentLoaded', function () {
     const sectionElement = document.querySelector('.join');
     observer.observe(sectionElement);
 });
+
+
+// الحصول على الأيقونة والقائمة
+const toggleMenu = document.querySelector('.toggle-menu');
+const navLinks = document.querySelector('nav ul');
+
+// إضافة حدث click للأيقونة
+toggleMenu.addEventListener('click', function() {
+  // تبديل الصنف 'active' لإظهار أو إخفاء القائمة
+  navLinks.classList.toggle('active');
+});
