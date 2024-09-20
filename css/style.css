@@ -552,15 +552,22 @@ header .container .log-btn a{
     display: flex;
     flex: 1;
     gap: 20px;
-    padding: 15px;
+    align-items: center;
+    padding: 10px;
     caret-color: var(--main-color);
     border-radius: 10px;
     border: 2px solid #ded4d4;
     outline: none;
 }
+@media (max-width: 600px){
+    .search-sec .input-wrapper{
+        padding: 5px;
+    }
+}
 @media (max-width: 532px) {
     .search-sec .input-wrapper{
         font-size: 13px;
+        padding: 5px;
     }
 }
 .search-sec .input-wrapper input{
